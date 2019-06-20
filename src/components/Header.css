@@ -1,0 +1,20 @@
+.HeaderContainer {
+    background-color: rgb(15, 15, 15);
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+.loading {
+    display: flex;
+    align-items: center;
+    /* width: 100%; */
+}
+
+.loading-progress {
+    height: 5px;
+    width: 100%;
+    background: linear-gradient(90deg, red 0%, yellow 15%, lime 30%, cyan 50%, blue 65%, magenta 80%, red 100%);
+    background-size: 100%;
+}

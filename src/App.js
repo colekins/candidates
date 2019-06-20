@@ -1,24 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import CandidateCard from './components/CandidateCard.js';
+import Header from './components/Header.js';
+import CandidatePage from './components/CandidatePage.js';
+import userData from './data.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
+        <Header/>
+        <CandidatePage/>
+        <div className="candidates">
+         {
+           userData.map(function (User, i) {
+             return <CandidateCard 
+             user = {User}
+             key = {i}
+             />
+           })
+         }
+         </div>
+         Created by <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://colekinsler.com"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          Learn React
+        >Cole Kinsler
         </a>
-      </header>
     </div>
   );
 }
