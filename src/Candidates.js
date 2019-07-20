@@ -6,6 +6,13 @@ import CandidatePage from './candidates/CandidatePage.js';
 import userData from './data.js';
 
 class Candidates extends React.Component {
+  constructor(props) {
+      super(props);
+      this.state = {
+        date: new Date()
+      };
+  }
+
   render() {
       return (
         <div className="App">
@@ -27,6 +34,8 @@ class Candidates extends React.Component {
               target="_blank"
               rel="noopener noreferrer"
             >Cole Kinsler</a>
+            <br></br>
+            {this.state.date.toLocaleTimeString()}
         </div>
     );
   }
