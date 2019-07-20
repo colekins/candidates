@@ -1,8 +1,8 @@
 import React from 'react';
 import './Candidates.css';
-import CandidateCard from './components/CandidateCard.js';
-import Header from './components/Header.js';
-import CandidatePage from './components/CandidatePage.js';
+import CandidateCard from './candidates/CandidateCard.js';
+import Header from './candidates/Header.js';
+import CandidatePage from './candidates/CandidatePage.js';
 import userData from './data.js';
 
 class Candidates extends React.Component {
