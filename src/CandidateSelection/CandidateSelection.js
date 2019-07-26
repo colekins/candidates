@@ -1,11 +1,12 @@
 import React from 'react';
-import './Candidates.css';
-import CandidateCard from './candidates/CandidateCard.js';
-import Header from './candidates/Header.js';
-import CandidatePage from './candidates/CandidatePage.js';
-import userData from './data.js';
+import './CandidateSelection.css';
+import CandidateCard from './CandidateCard.js';
+import Header from '../common/Header.js';
+import Footer from '../common/Footer'
+import CandidatePage from './CandidatePage.js';
+import userData from '../data.js';
 
-class Candidates extends React.Component {
+class CandidateSelection extends React.Component {
   constructor(props) {
       super(props);
       this.state = {
@@ -28,12 +29,7 @@ class Candidates extends React.Component {
               })
             }
             </div>
-            Created by <a
-              className="App-link"
-              href="https://colekinsler.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >Cole Kinsler</a>
+            <Footer />
             <br></br>
             {this.state.date.toLocaleTimeString()}
         </div>
@@ -41,4 +37,4 @@ class Candidates extends React.Component {
   }
 }
 
-export default Candidates;
+export default CandidateSelection;

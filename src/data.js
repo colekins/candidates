@@ -1,4 +1,4 @@
-// Taken from https://randomuser.me/api/?results=10
+// from https://randomuser.me/api/?results=10
 const userData = {
     "results": [{
             "gender": "male",
@@ -11,29 +11,10 @@ const userData = {
                 "city": "Burlington",
                 "state": "Vermont",
                 "postcode": "4299",
-                "coordinates": {
-                    "latitude": "51.8143",
-                    "longitude": "-88.2051"
-                },
                 "timezone": {
                     "offset": "+6:00",
                     "description": "Almaty, Dhaka, Colombo"
                 }
-            },
-            "email": "olav.skomedal@example.com",
-            "dob": {
-                "date": "1984-05-03T07:17:48Z",
-                "age": 34
-            },
-            "registered": {
-                "date": "2005-08-28T13:19:16Z",
-                "age": 13
-            },
-            "phone": "89519388",
-            "cell": "45703457",
-            "id": {
-                "name": "FN",
-                "value": "03058445095"
             },
             "picture": {
                 "large": "https://randomuser.me/api/portraits/men/53.jpg",

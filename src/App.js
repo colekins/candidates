@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Candidates from './Candidates';
+import CandidateSelection from './CandidateSelection/CandidateSelection.js';
 
 function App()  {
       return (
         <div className="App">
-            <Candidates />
+            <CandidateSelection />
         </div>
     );
 }
