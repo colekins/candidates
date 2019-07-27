@@ -8,21 +8,23 @@ class CandidatesApp extends React.Component  {
     constructor(props) {
         super(props);
         this.state = {
-          clicked: "",
+          selected: " ",
           date: new Date()
         };
     }
 
     onClickCandidate =(id) => {
+        this.setState({
+            selected: id,
+          })
         console.log('yooooo', id)
     }
 
     render () {
         return (
             <div>
-                <CandidateInfo />
+                <CandidateInfo selected={this.state.selected} />
                 <CandidateSelection onClickCandidate={this.onClickCandidate} />
-                {this.state.date.toLocaleTimeString()}
             </div>
         );
     }

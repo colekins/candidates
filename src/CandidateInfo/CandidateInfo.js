@@ -2,9 +2,10 @@ import React from 'react';
 import './CandidateInfo.css';
 // import userData from '../data.js';
 
-function CandidateInfo()  {
+function CandidateInfo(props)  {
     return (
-      <div className="">
+      <div className="candidate-info">
+      {props.selected}
       </div>
   );
 }
