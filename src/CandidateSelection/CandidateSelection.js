@@ -1,6 +1,6 @@
 import React from 'react';
 import './CandidateSelection.css';
-import CandidateCard from './CandidateCard.js';
+import CandidateCard from './candidateCard.js';
 import userData from '../data.js';
 
 const CandidateSelection = (props) => (
@@ -12,7 +12,7 @@ const CandidateSelection = (props) => (
                   user = {User}
                   key = {i}
                   id = {i}
-                  onClickCandidate={props.onClickCandidate}
+                  onClickCandidate = {props.onClickCandidate}
                   />
                 })
               }

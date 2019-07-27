@@ -1,29 +1,45 @@
 import React from 'react';
 import './App.css';
-import CandidateSelection from './CandidateSelection/CandidateSelection.js';
-import CandidateInfo from './CandidateInfo/CandidateInfo'
+import CandidateSelection from './CandidateSelection/candidateSelection.js';
+import CandidateInfo from './CandidateInfo/candidateInfo.js'
+import userData from './data.js';
 
 
 class CandidatesApp extends React.Component  {
     constructor(props) {
         super(props);
         this.state = {
-          selected: " ",
-          date: new Date()
+          selected: "",
+          candidate: null
         };
     }
 
-    onClickCandidate =(id) => {
-        this.setState({
-            selected: id,
-          })
-        console.log('yooooo', id)
+    onClickCandidate = (id) => {
+        if (this.state.selected === id) {
+            this.setState({
+                selected: "",
+                candidate: null
+            })
+        } else {
+            this.setState({
+                selected: id,
+                candidate: userData[id]
+              })
+        };
+
+        console.log('selected', userData[id].name.first)
     }
 
     render () {
         return (
             <div>
-                <CandidateInfo selected={this.state.selected} />
+                {this.state.candidate != null ? (
+                    <CandidateInfo 
+                    id = {this.state.selected} 
+                    candidate = {this.state.candidate} />
+                ) : ( <div>
+                    </div>)
+                }
                 <CandidateSelection onClickCandidate={this.onClickCandidate} />
             </div>
         );
