@@ -51,30 +51,6 @@ const userData = {
             "gender": "male",
             "name": {
                 "title": "mr",
-                "first": "Beto",
-                "last": "O'Rourke"
-            },
-            "location": {
-                "city": "el paso",
-                "state": "Texas",
-                "postcode": 47761,
-                "timezone": {
-                    "offset": "+5:45",
-                    "description": "Kathmandu"
-                }
-            },
-            "issues": {
-                "date": "2016-08-15T02:00:31Z",
-                "age": 2
-            },
-            "picture": {
-                "large": "https://randomuser.me/api/portraits/women/66.jpg",
-                "icon": "https://assets3.thrillist.com/v1/image/2814565/size/sk-2017_04_featured_listing_mobile.jpg"},
-        },
-        {
-            "gender": "male",
-            "name": {
-                "title": "mr",
                 "first": "joe",
                 "last": "biden"
             },
@@ -94,6 +70,30 @@ const userData = {
             "picture": {
                 "large": "https://randomuser.me/api/portraits/women/66.jpg",
                 "icon": "https://i.imgur.com/0wbX6kR.jpg",            },
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "mr",
+                "first": "Beto",
+                "last": "O'Rourke"
+            },
+            "location": {
+                "city": "el paso",
+                "state": "Texas",
+                "postcode": 47761,
+                "timezone": {
+                    "offset": "+5:45",
+                    "description": "Kathmandu"
+                }
+            },
+            "issues": {
+                "date": "2016-08-15T02:00:31Z",
+                "age": 2
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/66.jpg",
+                "icon": "https://assets3.thrillist.com/v1/image/2814565/size/sk-2017_04_featured_listing_mobile.jpg"},
         },
         {
             "gender": "female",
@@ -166,6 +166,30 @@ const userData = {
             "picture": {
                 "large": "https://randomuser.me/api/portraits/women/66.jpg",
                 "icon": "https://pbs.twimg.com/profile_images/1091308075041079297/Yz_PLR20.jpg"},
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "senator",
+                "first": "amy",
+                "last": "klobuchar"
+            },
+            "location": {
+                "city": "Minneapolis",
+                "state": "minnesota",
+                "postcode": 47761,
+                "timezone": {
+                    "offset": "+5:45",
+                    "description": "Kathmandu"
+                }
+            },
+            "issues": {
+                "date": "2016-08-15T02:00:31Z",
+                "age": 2
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/66.jpg",
+                "icon": "https://pbs.twimg.com/profile_images/1059812997982511105/lgFAlE5t.jpg"},
         }
     ]
 }
