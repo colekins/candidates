@@ -2,12 +2,14 @@ import React from 'react';
 import './CandidateCard.css';
 
 function CandidateCard(props) {
-    function clickCandidate(e) {
-        e.preventDefault();
-    }
+
+const handleClick = (e) => {
+    e.preventDefault();
+    props.onClickCandidate(props.id)
+}
 
     return ( 
-        <div className="candidate-card" onClick = {clickCandidate}>
+        <div className="candidate-card" onClick={handleClick}>
             <div className={`candidate-status ${props.user.status}`} status = {
                 props.user.status} 
             />
