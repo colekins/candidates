@@ -37,8 +37,7 @@ class CandidatesApp extends React.Component  {
                     <CandidateInfo 
                     id = {this.state.selected} 
                     candidate = {this.state.candidate} />
-                ) : ( <div>
-                    </div>)
+                ) : ( <div></div>)
                 }
                 <CandidateSelection onClickCandidate={this.onClickCandidate} selected={this.state.selected} />
             </div>
