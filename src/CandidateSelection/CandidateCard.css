@@ -1,8 +1,8 @@
 .candidate-card {
     background: #222;
     display: inline-block;
-    margin: 20px;
-    padding: 40px 20px;
+    margin: 1em;
+    padding: 2.8em 1.6em;
     border-radius: 10px;
     text-align: center;
     transition: 0.15s transform ease;
@@ -18,18 +18,17 @@
 }
 
 .candidate-name {
-    font-size: 1.18em;
+    font-size: 1.25em;
     text-transform: capitalize;
     margin-bottom: 5px;
 }
 
 .candidate-location { 
     text-transform: capitalize;
-    opacity: 0.4;
+    opacity: 0.55;
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 13px;
-    width: 150px;
+    font-size: .82em;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -41,7 +40,7 @@
    border-radius: 100px;
    margin: 0 auto;
    display: block;
-   width: 4.75em;
+   width: 5em;
 }
 
 .candidate-status {

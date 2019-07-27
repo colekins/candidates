@@ -1,8 +1,6 @@
 import React from 'react';
 import './CandidateSelection.css';
 import CandidateCard from './CandidateCard.js';
-import Header from '../common/Header.js';
-import Footer from '../common/Footer'
 import CandidatePage from './CandidatePage.js';
 import userData from '../data.js';
 
@@ -16,8 +14,7 @@ class CandidateSelection extends React.Component {
 
   render() {
       return (
-        <div className="App">
-            <Header/>
+        <div className="CandidateSelection">
             <CandidatePage/>
             <div className="candidates">
               {
@@ -29,7 +26,6 @@ class CandidateSelection extends React.Component {
                 })
               }
             </div>
-            <Footer />
             {this.state.date.toLocaleTimeString()}
         </div>
     );
