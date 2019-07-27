@@ -5,7 +5,7 @@ import userData from '../data.js';
 
 const CandidateSelection = (props) => (
         <div className="CandidateSelection">
-            <div className="candidates">
+            <div className='horizontal-flow'>
               {
                 userData.map(function (User, i) {
                   return <CandidateCard 

@@ -5,7 +5,7 @@ function CandidateCard(props) {
 
 const handleClick = (e) => {
     e.preventDefault();
-    props.onClickCandidate(props.id)
+    props.onClickCandidate(props.id, e)
 }
 
     return ( 

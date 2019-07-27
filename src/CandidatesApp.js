@@ -9,15 +9,15 @@ class CandidatesApp extends React.Component  {
     constructor(props) {
         super(props);
         this.state = {
-          selected: "",
+          selected: null,
           candidate: null
         };
     }
 
-    onClickCandidate = (id) => {
+    onClickCandidate = (id, e) => {
         if (this.state.selected === id) {
             this.setState({
-                selected: "",
+                selected: null,
                 candidate: null
             })
         } else {
@@ -27,7 +27,9 @@ class CandidatesApp extends React.Component  {
               })
         };
 
-        console.log('selected', userData[id].name.first)
+        var element = e.target;
+        console.log(e.target)
+        element.scrollIntoView({behavior: "smooth", block: "end", inline: "center"});
     }
 
     render () {
