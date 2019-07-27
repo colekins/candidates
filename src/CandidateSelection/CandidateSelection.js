@@ -20,17 +20,16 @@ class CandidateSelection extends React.Component {
             <Header/>
             <CandidatePage/>
             <div className="candidates">
-            {
-              userData.map(function (User, i) {
-                return <CandidateCard 
-                user = {User}
-                key = {i}
-                />
-              })
-            }
+              {
+                userData.map(function (User, i) {
+                  return <CandidateCard 
+                  user = {User}
+                  key = {i}
+                  />
+                })
+              }
             </div>
             <Footer />
-            <br></br>
             {this.state.date.toLocaleTimeString()}
         </div>
     );
