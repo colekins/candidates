@@ -8,12 +8,7 @@ const userData = {
             },
             "location": {
                 "city": "Burlington",
-                "state": "Vermont",
-                "postcode": "4299",
-                "timezone": {
-                    "offset": "+6:00",
-                    "description": "Almaty, Dhaka, Colombo"
-                }
+                "state": "Vermont"
             },
             "issues": {
                 "date": "2012-07-27T03:33:33Z",
@@ -32,12 +27,7 @@ const userData = {
             },
             "location": {
                 "city": "Boston",
-                "state": "massachussets",
-                "postcode": 18419,
-                "timezone": {
-                    "offset": "-1:00",
-                    "description": "Azores, Cape Verde Islands"
-                }
+                "state": "massachussets"
             },
             "issues": {
                 "date": "2012-07-27T03:33:33Z",
@@ -56,12 +46,7 @@ const userData = {
             },
             "location": {
                 "city": "wilmington",
-                "state": "delaware",
-                "postcode": 47761,
-                "timezone": {
-                    "offset": "+5:45",
-                    "description": "Kathmandu"
-                }
+                "state": "delaware"
             },
             "issues": {
                 "date": "2016-08-15T02:00:31Z",
@@ -80,12 +65,7 @@ const userData = {
             },
             "location": {
                 "city": "el paso",
-                "state": "Texas",
-                "postcode": 47761,
-                "timezone": {
-                    "offset": "+5:45",
-                    "description": "Kathmandu"
-                }
+                "state": "Texas"
             },
             "issues": {
                 "date": "2016-08-15T02:00:31Z",
@@ -104,12 +84,7 @@ const userData = {
             },
             "location": {
                 "city": "sacramento",
-                "state": "california",
-                "postcode": 47761,
-                "timezone": {
-                    "offset": "+5:45",
-                    "description": "Kathmandu"
-                }
+                "state": "california"
             },
             "issues": {
                 "date": "2016-08-15T02:00:31Z",
@@ -128,12 +103,7 @@ const userData = {
             },
             "location": {
                 "city": "south bend",
-                "state": "indiana",
-                "postcode": 47761,
-                "timezone": {
-                    "offset": "+5:45",
-                    "description": "Kathmandu"
-                }
+                "state": "indiana"
             },
             "issues": {
                 "date": "2016-08-15T02:00:31Z",
@@ -176,12 +146,7 @@ const userData = {
             },
             "location": {
                 "city": "Minneapolis",
-                "state": "minnesota",
-                "postcode": 47761,
-                "timezone": {
-                    "offset": "+5:45",
-                    "description": "Kathmandu"
-                }
+                "state": "minnesota"
             },
             "issues": {
                 "date": "2016-08-15T02:00:31Z",
@@ -190,6 +155,25 @@ const userData = {
             "picture": {
                 "large": "https://randomuser.me/api/portraits/women/66.jpg",
                 "icon": "https://pbs.twimg.com/profile_images/1059812997982511105/lgFAlE5t.jpg"},
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "",
+                "first": "Julián",
+                "last": "Castro"
+            },
+            "location": {
+                "city": "San Antonio",
+                "state": "Texas"
+            },
+            "issues": {
+                "date": "2016-08-15T02:00:31Z",
+                "age": 2
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/66.jpg",
+                "icon": "https://miro.medium.com/fit/c/256/256/0*Yu171xeFxAqDw5lx.jpeg"},
         }
     ]
 }
