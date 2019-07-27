@@ -34,10 +34,6 @@ const userData = {
                 "city": "Boston",
                 "state": "massachussets",
                 "postcode": 18419,
-                "coordinates": {
-                    "latitude": "-56.3388",
-                    "longitude": "8.5097"
-                },
                 "timezone": {
                     "offset": "-1:00",
                     "description": "Azores, Cape Verde Islands"
@@ -59,13 +55,9 @@ const userData = {
                 "last": "O'Rourke"
             },
             "location": {
-                "city": "wilmington",
-                "state": "delaware",
+                "city": "el paso",
+                "state": "Texas",
                 "postcode": 47761,
-                "coordinates": {
-                    "latitude": "28.1044",
-                    "longitude": "49.4421"
-                },
                 "timezone": {
                     "offset": "+5:45",
                     "description": "Kathmandu"
@@ -90,10 +82,6 @@ const userData = {
                 "city": "wilmington",
                 "state": "delaware",
                 "postcode": 47761,
-                "coordinates": {
-                    "latitude": "28.1044",
-                    "longitude": "49.4421"
-                },
                 "timezone": {
                     "offset": "+5:45",
                     "description": "Kathmandu"
@@ -106,6 +94,30 @@ const userData = {
             "picture": {
                 "large": "https://randomuser.me/api/portraits/women/66.jpg",
                 "icon": "https://i.imgur.com/0wbX6kR.jpg",            },
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "mr",
+                "first": "pete",
+                "last": "buttigieg"
+            },
+            "location": {
+                "city": "south bend",
+                "state": "indiana",
+                "postcode": 47761,
+                "timezone": {
+                    "offset": "+5:45",
+                    "description": "Kathmandu"
+                }
+            },
+            "issues": {
+                "date": "2016-08-15T02:00:31Z",
+                "age": 2
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/66.jpg",
+                "icon": "https://styles.redditmedia.com/t5_nahld/styles/communityIcon_hxeyojcanp731.jpg",            },
         }
     ],
 }

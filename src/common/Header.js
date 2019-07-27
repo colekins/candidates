@@ -8,7 +8,7 @@ function Header(props) {
             <div className="loading-progress">
         </div>
       </div>
-        <h1>2020 Candidates</h1>
+        <h1>VoteDems.info</h1>
         </header>
     );
 }
