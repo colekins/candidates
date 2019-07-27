@@ -179,14 +179,7 @@ const userData = {
 }
 
 const modifiedData = userData.results.map(function (User) {
-    const random = Math.random();
-    if (random > 0.3 && random <= 0.7) {
-        User.status = "active";
-    } else if (random > 0.7) {
-        User.status = "inactive";
-    } else {
-        User.status = "none";
-    }
+
     return User;
 });
 

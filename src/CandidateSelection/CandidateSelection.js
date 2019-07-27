@@ -13,6 +13,7 @@ const CandidateSelection = (props) => (
                   key = {i}
                   id = {i}
                   onClickCandidate = {props.onClickCandidate}
+                  selected = {props.selected}
                   />
                 })
               }

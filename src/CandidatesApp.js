@@ -40,7 +40,7 @@ class CandidatesApp extends React.Component  {
                 ) : ( <div>
                     </div>)
                 }
-                <CandidateSelection onClickCandidate={this.onClickCandidate} />
+                <CandidateSelection onClickCandidate={this.onClickCandidate} selected={this.state.selected} />
             </div>
         );
     }

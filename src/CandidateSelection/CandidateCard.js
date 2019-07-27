@@ -10,8 +10,7 @@ const handleClick = (e) => {
 
     return ( 
         <div className="candidate-card" onClick={handleClick}>
-            <div className={`candidate-status ${props.user.status}`} status = {
-                props.user.status} 
+            <div className={`candidate-status ${(props.selected === props.id ? 'active' : "")}`} 
             />
             <img className="candidate-avatar" src = {
                 props.user.picture.icon} alt = "profile"
