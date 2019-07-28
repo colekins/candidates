@@ -11,8 +11,8 @@ const userData = {
                 "state": "Vermont"
             },
             "issues": {
-                "date": "2012-07-27T03:33:33Z",
-                "age": 6
+                "healthcare": "2012-07-27T03:33:33Z",
+                "climate": "no"
             },
             "picture": {
                 "large": "https://randomuser.me/api/portraits/men/53.jpg",
@@ -54,7 +54,7 @@ const userData = {
             },
             "picture": {
                 "large": "https://randomuser.me/api/portraits/women/66.jpg",
-                "icon": "https://i.imgur.com/0wbX6kR.jpg",            },
+                "icon": "https://miro.medium.com/fit/c/256/256/1*12QebBEwpcHMg_xuaJ5MrQ.jpeg",            },
         },
         {
             "gender": "male",

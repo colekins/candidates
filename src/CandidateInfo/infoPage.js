@@ -4,16 +4,16 @@ import './CandidateInfo.css';
 function InfoPage(props)  {
     
     function handleClick() {
-        console.log(props.candidate.name.first);
+        // console.log(props.candidate.name.first);
     }
 
     return (
       <div className="info-page" onClick={handleClick}>
         <div className="column">
-        {props.candidate.name.first}
+        {props.candidate.name.first} {props.candidate.name.last}
         </div>
         <div className="column">
-        {props.candidate.name.last}
+        
         </div>
       </div>
   );

@@ -3,7 +3,7 @@
     display: inline-block;
     margin: 1em;
     padding: 2.8em 1.6em;
-    border-radius: 10px;
+    border-radius: 9px;
     text-align: center;
     transition: 0.15s transform ease;
     cursor: pointer;
@@ -22,14 +22,14 @@
     display: inline-block;
     margin: 1em;
     padding: 2.8em 1.6em;
-    border-radius: 10px;
+    border-radius: 9px;
     text-align: center;
     transition: 0.15s transform ease;
     cursor: pointer;
     min-width: 10.5em;
     max-height: 10em;
     position: relative;
-    background: linear-gradient(to bottom, rgb(35, 121, 202) , rgb(17, 17, 17));
+    background: linear-gradient(to bottom, rgb(55, 158, 255) , rgb(7, 23, 34));
 }
 
 .candidate-card-selected:hover {
@@ -40,7 +40,7 @@
 .candidate-name {
     font-size: 1.25em;
     text-transform: capitalize;
-    margin-bottom: 5px;
+    margin-bottom: .22em;
 }
 
 .candidate-location { 
@@ -64,13 +64,13 @@
 }
 
 .candidate-status {
-    width: 8px;
-    height: 8px;
+    width: .45em;
+    height: .45em;
     background-color: #4A4A4A;
-    border-radius: 10px;
+    border-radius: 100px;
     position: absolute;
-    left: 12px;
-    top: 12px;
+    left: 9px;
+    top: 9px;
 }
 
 .active {

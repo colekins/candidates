@@ -29,7 +29,7 @@ class CandidatesApp extends React.Component  {
         };
 
         var element = e.target;
-        element.scrollIntoView({behavior: "smooth", block: "end", inline: "center"});
+        element.scrollIntoView({behavior: "smooth", block: "center", inline: "center"});
     }
 
     render () {

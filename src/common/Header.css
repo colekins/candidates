@@ -1,10 +1,12 @@
 .HeaderContainer {
     background-color: rgb(15, 15, 15);
     display: inline-block;
-    text-align: center;
+    text-align: left;
     width: 100%;
     position: relative;
     margin-bottom: 1.2em;
+    /* background-color: #2a2a72;
+    background-image: linear-gradient(to left, #11115e 0%, #009ffd 69%); */
 }
 
 .loading {
@@ -14,8 +16,15 @@
 }
 
 .loading-progress {
-    height: 5px;
+    height: 6px;
     width: 100%;
+    background-color: #0abcf9;
+    /* background-image: linear-gradient(to right, #0abcf9, #235baf); */
     background: linear-gradient(90deg, red 0%, yellow 15%, lime 30%, cyan 50%, blue 65%, magenta 80%, red 100%);
     background-size: 100%;
+}
+
+.page-title {
+    padding-left: 3.5em;
+    font-size: 1.8em;
 }

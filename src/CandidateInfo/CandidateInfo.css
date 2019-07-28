@@ -1,7 +1,7 @@
 .info-page {
-    min-height: 48vh;
-    margin: 0 7.5em;
-    text-align: center;
+    min-height: 50vh;
+    margin: 0em 5.5em;
+    text-align: left;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -13,4 +13,7 @@
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
+    /* border: 1.5px solid rgba(255, 255, 255, 0.144); */
+    margin: 0 .7em;
+    padding: 0 1em;
   }
