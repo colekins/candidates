@@ -9,7 +9,12 @@ function InfoPage(props)  {
 
     return (
       <div className="info-page" onClick={handleClick}>
-      {props.candidate.name.first}
+        <div className="column">
+        {props.candidate.name.first}
+        </div>
+        <div className="column">
+        {props.candidate.name.last}
+        </div>
       </div>
   );
 }

@@ -17,6 +17,26 @@
    background: linear-gradient(rgb(49, 49, 49) , #222);
 }
 
+.candidate-card-selected {
+    background: #222;
+    display: inline-block;
+    margin: 1em;
+    padding: 2.8em 1.6em;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.15s transform ease;
+    cursor: pointer;
+    min-width: 10.5em;
+    max-height: 10em;
+    position: relative;
+    background: linear-gradient(to bottom, rgb(35, 121, 202) , rgb(17, 17, 17));
+}
+
+.candidate-card-selected:hover {
+    transform: scale(1.08);
+    /* background: linear-gradient(rgb(49, 49, 49) , #222); */
+ }
+
 .candidate-name {
     font-size: 1.25em;
     text-transform: capitalize;

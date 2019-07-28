@@ -1,5 +1,16 @@
-.info-page{
-    min-height: 50vh;
+.info-page {
+    min-height: 48vh;
     margin: 0 7.5em;
-    text-align: left;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
 }
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }

@@ -4,7 +4,7 @@ import './splashPage.css'
 function SplashPage(props)  {
     return (
       <div className="splash-page">
-      Hello 123
+      Welcome to VoteDems
       </div>
   );
 }
