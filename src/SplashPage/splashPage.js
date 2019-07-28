@@ -4,7 +4,12 @@ import './splashPage.css'
 function SplashPage(props)  {
     return (
       <div className="splash-page">
-      Welcome to VoteDems
+        <div className="header-splash">
+        Welcome.
+        </div>
+        <div className="header-subtitle">
+        Compare the ideas & policies of the 2020 Democratic candidates.
+        </div>
       </div>
   );
 }

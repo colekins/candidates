@@ -1,11 +1,14 @@
 .info-page {
-    min-height: 50vh;
-    margin: 0em 5.5em;
     text-align: left;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    margin: 0em 6.5em;
     max-width: 100%;
+}
+
+.info-container {
+    min-height: 50vh;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: .5em;
 }
 
 .column {
@@ -15,5 +18,14 @@
     flex: 1;
     /* border: 1.5px solid rgba(255, 255, 255, 0.144); */
     margin: 0 .7em;
-    padding: 0 1em;
+    padding: 0 .5em;
+  }
+
+  .header-name {
+      flex: 1 100%;
+      text-transform: capitalize;
+      font-size: 1.7em;
+      color: #c1dcff;
+      font-weight: 300;
+      display: inline-block;
   }
