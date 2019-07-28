@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import CandidateSelection from './CandidateSelection/candidateSelection.js';
 import CandidateInfo from './CandidateInfo/candidateInfo.js'
+import SplashPage from './SplashPage/splashPage'
 import userData from './data.js';
 
 
@@ -39,7 +40,7 @@ class CandidatesApp extends React.Component  {
                     <CandidateInfo 
                     id = {this.state.selected} 
                     candidate = {this.state.candidate} />
-                ) : ( <div></div>)
+                ) : ( <SplashPage />)
                 }
                 <CandidateSelection onClickCandidate={this.onClickCandidate} selected={this.state.selected} />
             </div>
