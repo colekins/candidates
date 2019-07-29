@@ -1,4 +1,4 @@
-.HeaderContainer {
+.header-container {
     background-color: rgb(15, 15, 15);
     display: inline-block;
     text-align: left;
@@ -12,16 +12,16 @@
 .loading {
     display: flex;
     align-items: center;
-    /* width: 100%; */
+    width: 100%;
 }
 
 .loading-progress {
-    height: 6px;
+    height: 7px;
     width: 100%;
     /* background-color: #0abcf9; */
     /* background-image: linear-gradient(to right, #0abcf9, #235baf); */
     background: linear-gradient(90deg, red 0%, yellow 15%, lime 30%, cyan 50%, blue 65%, magenta 80%, red 100%);
-    background-size: 100%;
+    background-size: 115%;
 }
 
 .page-title {

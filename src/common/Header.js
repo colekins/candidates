@@ -3,13 +3,11 @@ import './Header.css';
 
 function Header(props) {
     return ( 
-        <header className="HeaderContainer" >
-         <div className="loading">
+         <div className="header-container loading">
             <div className="loading-progress">
         </div>
       </div>
-        <h1 className="page-title">VoteDems.info</h1>
-        </header>
+
     );
 }
 

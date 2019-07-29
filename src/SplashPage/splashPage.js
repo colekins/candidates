@@ -8,7 +8,7 @@ function SplashPage(props)  {
         Welcome.
         </div>
         <div className="header-subtitle">
-        Compare the ideas & policies of the 2020 Democratic candidates.
+        Compare the plans & ideas of the 2020 Democratic candidates.
         </div>
       </div>
   );

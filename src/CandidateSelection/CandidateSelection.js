@@ -4,7 +4,7 @@ import CandidateCard from './candidateCard.js';
 import userData from '../data.js';
 
 const CandidateSelection = (props) => (
-        <div className="CandidateSelection">
+        <div className="candidate-selection">
             <div className={`${(props.selected != null ? 'horizontal-flow' : '')}`}>
               {
                 userData.map(function (User, i) {

@@ -16,7 +16,7 @@ const userData = {
             },
             "picture": {
                 "large": "https://randomuser.me/api/portraits/men/53.jpg",
-                "icon": "https://pbs.twimg.com/profile_images/705594764658286592/ed-GOUxB_400x400.jpg"}
+                "icon": "https://pbs.twimg.com/profile_images/1097820307388334080/9ddg5F6v_400x400.png"}
         },
         {
             "gender": "female",

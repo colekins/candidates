@@ -1,14 +1,15 @@
 .info-page {
     text-align: left;
     margin: 0em 6.5em;
+    margin-top: 1.2em;
     max-width: 100%;
 }
 
 .info-container {
-    min-height: 50vh;
+    min-height: 53vh;
     display: flex;
     flex-flow: row wrap;
-    margin-top: .5em;
+    margin-top: 1em;
 }
 
 .column {
@@ -16,7 +17,7 @@
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
-    /* border: 1.5px solid rgba(255, 255, 255, 0.144); */
+    /* border: 1.5px solid r    gba(255, 255, 255, 0.144); */
     margin: 0 .7em;
     padding: 0 .5em;
   }
@@ -24,7 +25,7 @@
   .header-name {
       flex: 1 100%;
       text-transform: capitalize;
-      font-size: 1.7em;
+      font-size: 1.9em;
       color: #c1dcff;
       font-weight: 300;
       display: inline-block;
