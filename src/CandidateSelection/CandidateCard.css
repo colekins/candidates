@@ -29,7 +29,7 @@
     min-width: 10.5em;
     max-height: 10em;
     position: relative;
-    background: linear-gradient(to bottom, rgb(32, 147, 255) , rgb(10, 15, 19));
+    background: linear-gradient(to bottom, rgb(32, 147, 255) , rgb(10, 15, 19) 115%);
 }
 
 .candidate-card-selected:hover {
