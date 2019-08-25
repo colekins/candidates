@@ -13,11 +13,11 @@ const userData = {
             "issues": {
                 "healthcare": "Medicare for All. Supports negotiating drug costs and promoting generics. No limits on abortion.",
                 "environment": "Supports and expands upon the Green New Deal. Supports ban on fracking and shutting down existing nuclear power reactors.",
-                "economy": "Raise taxes on wealthy with new estate taxes. Expand social programs and establish a federal jobs guarantee. Raise the federal minimum wage to $15. Supports universal paid family and medical leave program allowing for up to 12 weeks of paid leave. Supports a modernized Glass-Steagall which would break up some of the biggest banks. Supports a commission to study reparations.",
-                "education": "Public colleges and universities should be free. Would cancel all student loan debt. Would work with states to set a minimum salary for teachers of $60,000.",
+                "economy": "Raise taxes on wealthy with new estate taxes. Expand social programs and establish a federal jobs guarantee. Raise the federal minimum wage to $15. Supports universal paid family and medical leave program. Supports a modernized Glass-Steagall which would break up some of the biggest banks. Supports a commission to study reparations.",
+                "education": "Free tuition at public colleges and universities. Cancellation of all student loan debt. Would work with states to set a minimum salary for teachers of $60,000.",
                 "immigration": "Supports citizenship for dreamers. Would repeal the illegal entry statute which has been used to separate families at the border. Opposed to border wall funding.",
                 "guncontrol": "Supports a voluntary buyback program and universal background checks.",
-                "criminaljustice": "Abolish the death penalty and end the cash bail system. Eliminate private prisons and mandatory minimum sentences.",
+                "criminaljustice": "Abolish the death penalty and end the cash bail system. Eliminate private prisons and all mandatory minimum sentences.",
                 "military": "Slash the defense budget and bring troops home from post-9/11 wars."
             },
             "picture": {
@@ -36,8 +36,14 @@ const userData = {
                 "state": "massachussets"
             },
             "issues": {
-                "date": "2012-07-27T03:33:33Z",
-                "age": 6
+                "healthcare": "Supports Sanders' Medicare for All bill. Supports drug price negotiation, reference pricing and allowing the U.S. government to make generics",
+                "environment": "Supports the Green New Deal and a ban on fracking. Accelerate the transition to clean energy.",
+                "economy": "Raise taxes on wealthy via 'Ultra-Millionaire Tax' to expand social programs like universal childcare. Federal funds to build and perserve more affordable housing. Raise the federal minimum wage to $15. Supports universal paid family and medical leave program.  Supports a modernized Glass-Steagall which would break up some of the biggest banks. Supports a commission to study reparations.",
+                "education": "Free tuition at public colleges and universities. Student loan forgiveness for low and middle-income borrowers.",
+                "immigration": "Supports citizenship for dreamers. Would repeal the illegal entry statute which has been used to separate families at the border. Opposed to border wall funding.",
+                "guncontrol": "Supports a ban on assualt weapons and universal background checks.",
+                "criminaljustice": "Abolish the death penalty and end the cash bail system. Eliminate private prisons and all mandatory minimum sentences.",
+                "military": "Slash the defense budget and bring troops home from post-9/11 wars."
             },
             "picture": {
                 "large": "https://randomuser.me/api/portraits/men/21.jpg",
@@ -216,7 +222,6 @@ const userData = {
 }
 
 const modifiedData = userData.results.map(function (User) {
-
     return User;
 });
 
