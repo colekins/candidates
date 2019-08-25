@@ -13,8 +13,12 @@
 }
 
 .issue-title {
-    font-weight: bold;
-    font-size: 1.12em;
+    font-weight: 500;
+    font-size: 1.3em;
+    color: rgb(180, 227, 255);
+    background: -webkit-linear-gradient(bottom, rgb(62, 151, 235), rgb(199, 237, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .column {
@@ -30,8 +34,11 @@
 .header-name {
     flex: 1 100%;
     text-transform: capitalize;
-    font-size: 1.95em;
-    color: #cbe8ff;
+    font-size: 1.7em;
+    color: rgb(140, 228, 255);
+    background: -webkit-linear-gradient(bottom, rgb(172, 215, 255), rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight: 300;
     display: inline-block;
 }
