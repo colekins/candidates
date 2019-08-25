@@ -6,10 +6,15 @@
 }
 
 .info-container {
-    min-height: 53vh;
+    min-height: 55vh;
     display: flex;
     flex-flow: row wrap;
     margin-top: 1em;
+}
+
+.issue-title {
+    font-weight: bold;
+    font-size: 1.12em;
 }
 
 .column {
@@ -22,11 +27,11 @@
     padding: 0 .5em;
   }
 
-  .header-name {
-      flex: 1 100%;
-      text-transform: capitalize;
-      font-size: 1.9em;
-      color: #cbe8ff;
-      font-weight: 300;
-      display: inline-block;
-  }
+.header-name {
+    flex: 1 100%;
+    text-transform: capitalize;
+    font-size: 1.95em;
+    color: #cbe8ff;
+    font-weight: 300;
+    display: inline-block;
+}

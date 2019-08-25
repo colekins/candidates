@@ -11,8 +11,14 @@ const userData = {
                 "state": "Vermont"
             },
             "issues": {
-                "healthcare": "2012-07-27T03:33:33Z",
-                "climate": "no"
+                "healthcare": "Medicare for All. Supports negotiating drug costs and promoting generics. No limits on abortion.",
+                "environment": "Supports and expands upon the Green New Deal. Supports ban on fracking and shutting down existing nuclear power reactors.",
+                "economy": "Raise taxes on wealthy with new estate taxes. Expand social programs and establish a federal jobs guarantee. Raise the federal minimum wage to $15. Supports universal paid family and medical leave program allowing for up to 12 weeks of paid leave. Supports a modernized Glass-Steagall which would break up some of the biggest banks. Supports a commission to study reparations.",
+                "education": "Public colleges and universities should be free. Would cancel all student loan debt. Would work with states to set a minimum salary for teachers of $60,000.",
+                "immigration": "Supports citizenship for dreamers. Would repeal the illegal entry statute which has been used to separate families at the border. Opposed to border wall funding.",
+                "guncontrol": "Supports a voluntary buyback program and universal background checks.",
+                "criminaljustice": "Abolish the death penalty and end the cash bail system. Eliminate private prisons and mandatory minimum sentences.",
+                "military": "Slash the defense budget and bring troops home from post-9/11 wars."
             },
             "picture": {
                 "large": "https://randomuser.me/api/portraits/men/53.jpg",
@@ -49,8 +55,15 @@ const userData = {
                 "state": "delaware"
             },
             "issues": {
-                "date": "2016-08-15T02:00:31Z",
-                "age": 2
+                "healthcare": "",
+                "environment": "",
+                "economy": "",
+                "education": "",
+                "immigration": "",
+                "guncontrol": "",
+                "criminaljustice": "",
+                "military": ""
+
             },
             "picture": {
                 "large": "https://randomuser.me/api/portraits/women/66.jpg",
@@ -68,8 +81,14 @@ const userData = {
                 "state": "Texas"
             },
             "issues": {
-                "date": "2016-08-15T02:00:31Z",
-                "age": 2
+                "healthcare": "",
+                "environment": "",
+                "economy": "",
+                "education": "",
+                "immigration": "",
+                "guncontrol": "",
+                "criminaljustice": "",
+                "military": ""
             },
             "picture": {
                 "large": "https://randomuser.me/api/portraits/women/66.jpg",
@@ -106,8 +125,14 @@ const userData = {
                 "state": "indiana"
             },
             "issues": {
-                "date": "2016-08-15T02:00:31Z",
-                "age": 2
+                "healthcare": "",
+                "environment": "",
+                "economy": "",
+                "education": "",
+                "immigration": "",
+                "guncontrol": "",
+                "criminaljustice": "",
+                "military": ""
             },
             "picture": {
                 "large": "https://randomuser.me/api/portraits/women/66.jpg",
@@ -130,8 +155,14 @@ const userData = {
                 }
             },
             "issues": {
-                "date": "2016-08-15T02:00:31Z",
-                "age": 2
+                "healthcare": "",
+                "environment": "",
+                "economy": "",
+                "education": "",
+                "immigration": "",
+                "guncontrol": "",
+                "criminaljustice": "",
+                "military": ""
             },
             "picture": {
                 "large": "https://randomuser.me/api/portraits/women/66.jpg",
@@ -149,8 +180,14 @@ const userData = {
                 "state": "minnesota"
             },
             "issues": {
-                "date": "2016-08-15T02:00:31Z",
-                "age": 2
+                "healthcare": "",
+                "environment": "",
+                "economy": "",
+                "education": "",
+                "immigration": "",
+                "guncontrol": "",
+                "criminaljustice": "",
+                "military": ""
             },
             "picture": {
                 "large": "https://randomuser.me/api/portraits/women/66.jpg",
