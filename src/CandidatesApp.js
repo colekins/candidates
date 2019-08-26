@@ -29,7 +29,6 @@ class CandidatesApp extends React.Component  {
         };
 
         var element = e.target;
-        var top = document.getElementsByClassName("header-container").item(0);
         element.scrollIntoView({behavior: "smooth", block: "nearest", inline: "center"});
     }
 
