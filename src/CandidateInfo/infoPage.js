@@ -5,7 +5,7 @@ class InfoPage extends React.Component {
 
     componentDidMount() {
       var element = document.getElementsByClassName('candidate-card-selected').item(0);
-      element.scrollIntoView({behavior: "smooth", block: "nearest", inline: "center"});
+      element.scrollIntoView({behavior: "smooth", block: "center", inline: "center"});
     }
 
     // componentDidUpdate() {
@@ -30,24 +30,24 @@ class InfoPage extends React.Component {
           </div>
           <div className="info-container">
             <div className="column">
-            <span className="issue-title">Health Care</span>
-              <p>{this.props.candidate.issues.healthcare}</p>
-            <span className="issue-title">Environment</span> 
-              <p>{this.props.candidate.issues.environment}</p>
-            <span className="issue-title">Economy</span> 
-              <p>{this.props.candidate.issues.economy}</p>
-            <span className="issue-title">Education</span> 
-              <p>{this.props.candidate.issues.education}</p>
+              <span className="issue-title">Health Care</span>
+                <p>{this.props.candidate.issues.healthcare}</p>
+              <span className="issue-title">Environment</span> 
+                <p>{this.props.candidate.issues.environment}</p>
+              <span className="issue-title">Economy</span> 
+                <p>{this.props.candidate.issues.economy}</p>
+              <span className="issue-title">Education</span> 
+                <p>{this.props.candidate.issues.education}</p>
             </div>
             <div className="column">
-            <span className="issue-title">Immigration</span> 
-              <p>{this.props.candidate.issues.immigration}</p>
-            <span className="issue-title">Gun Control</span> 
-              <p>{this.props.candidate.issues.guncontrol}</p>
-            <span className="issue-title">Criminal Justice</span> 
-              <p>{this.props.candidate.issues.criminaljustice}</p>
-            <span className="issue-title">Military</span> 
-              <p>{this.props.candidate.issues.military}</p>
+              <span className="issue-title">Immigration</span> 
+                <p>{this.props.candidate.issues.immigration}</p>
+              <span className="issue-title">Gun Control</span> 
+                <p>{this.props.candidate.issues.guncontrol}</p>
+              <span className="issue-title">Criminal Justice</span> 
+                <p>{this.props.candidate.issues.criminaljustice}</p>
+              <span className="issue-title">Military</span> 
+                <p>{this.props.candidate.issues.military}</p>
             </div>
           </div>
         </div>

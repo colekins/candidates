@@ -4,10 +4,13 @@ import CandidateSelection from './CandidateSelection/candidateSelection.js';
 import CandidateInfo from './CandidateInfo/candidateInfo.js'
 import SplashPage from './SplashPage/splashPage'
 import userData from './data.js';
+import smoothscroll from 'smoothscroll-polyfill';
 
 
 class CandidatesApp extends React.Component  {
     constructor(props) {
+        smoothscroll.polyfill();
+
         super(props);
         this.state = {
           selected: null,
@@ -29,7 +32,7 @@ class CandidatesApp extends React.Component  {
         };
 
         var element = e.target;
-        element.scrollIntoView({behavior: "smooth", block: "nearest", inline: "center"});
+        element.scrollIntoView({behavior: "smooth", block: "center", inline: "center"});
     }
 
     render () {
