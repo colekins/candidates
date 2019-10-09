@@ -25,8 +25,9 @@
 
 .horizontal-flow {
    display: flex;
-   overflow-x: auto;
+   overflow-x: scroll;
    overflow-y: hidden;
+   -webkit-overflow-scrolling: touch;
 }
 
 /* @keyframes App-logo-spin {
