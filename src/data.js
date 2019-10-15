@@ -21,7 +21,7 @@ const userData = {
                 "military": "Slash the defense budget and bring troops home from post-9/11 wars."
             },
             "picture": {
-                "icon": "https://pbs.twimg.com/profile_images/1097820307388334080/9ddg5F6v_400x400.png"}
+                "icon": "https://i.imgur.com/WnrmexX.jpg"}
         },
         {
             "gender": "female",
@@ -70,7 +70,7 @@ const userData = {
 
             },
             "picture": {
-                "icon": "https://miro.medium.com/fit/c/256/256/1*12QebBEwpcHMg_xuaJ5MrQ.jpeg",            },
+                "icon": "https://i.imgur.com/Bmd86mT.jpg",            },
         },
         {
             "gender": "male",
@@ -94,7 +94,7 @@ const userData = {
                 "military": "Increase defense spending, and bring troops home from post-9/11 wars."
             },
             "picture": {
-                "icon": "https://assets3.thrillist.com/v1/image/2814565/size/sk-2017_04_featured_listing_mobile.jpg"},
+                "icon": "https://i.imgur.com/ACMTFY2.jpg"},
         },
         {
             "gender": "female",
@@ -118,7 +118,7 @@ const userData = {
                 "military": "Slash the defense budget and bring troops home from post-9/11 wars."
             },
             "picture": {
-                "icon": "https://miro.medium.com/fit/c/256/256/1*otydHRTFB1BbHZ4Xu4dLQA.png",},
+                "icon": "https://i.imgur.com/T9snpXl.png",},
         },
         {
             "gender": "male",
@@ -142,7 +142,7 @@ const userData = {
                 "military": "Increase defense spending, and bring troops home from post-9/11 wars."
             },
             "picture": {
-                "icon": "https://styles.redditmedia.com/t5_nahld/styles/communityIcon_hxeyojcanp731.jpg"},
+                "icon": "https://i.imgur.com/2HhbDkh.jpg"},
         },
         {
             "gender": "male",
@@ -166,7 +166,7 @@ const userData = {
                 "military": "Increase defense spending and keep the troops deployed."
             },
             "picture": {
-                "icon": "https://pbs.twimg.com/profile_images/1091308075041079297/Yz_PLR20.jpg"},
+                "icon": "https://i.imgur.com/JLvaQ9I.jpg"},
         },
         {
             "gender": "female",
@@ -190,7 +190,7 @@ const userData = {
                 "military": "Increase defense spending and keep the troops deployed."
             },
             "picture": {
-                "icon": "https://pbs.twimg.com/profile_images/1059812997982511105/lgFAlE5t.jpg"},
+                "icon": "https://i.imgur.com/Jl8Gydk.jpg"},
         },
         {
             "gender": "male",
@@ -214,7 +214,7 @@ const userData = {
                 "military": "Has expressed the need for a plan to withdraw troops."
             },
             "picture": {
-                "icon": "https://miro.medium.com/fit/c/256/256/0*Yu171xeFxAqDw5lx.jpeg"},
+                "icon": "https://i.imgur.com/rU2iEA5.jpg"},
         }
     ]
 }
