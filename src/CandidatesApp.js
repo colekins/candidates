@@ -18,7 +18,7 @@ class CandidatesApp extends React.Component  {
         };
     }
 
-    onClickCandidate = (id, e) => {
+    onClickCandidate = (id, e, firstClick) => {
         if (this.state.selected === id) {
             this.setState({
                 selected: null,
@@ -31,8 +31,10 @@ class CandidatesApp extends React.Component  {
               })
         };
         
-        var element = e.target;
-        element.scrollIntoView({behavior: "smooth", block: "start", inline: "center"});
+        if (!firstClick) {
+            var element = e.target;
+            element.scrollIntoView({behavior: "smooth", block: "start", inline: "center"});
+        }
     }
 
     render () {
