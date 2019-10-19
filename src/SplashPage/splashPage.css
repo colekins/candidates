@@ -17,3 +17,10 @@
     font-weight: 400;
     color: rgb(204, 204, 204);
 }
+
+
+@media only screen and (max-width: 600px) {
+    .header-splash   {
+      font-size: 4.7em;
+    }
+}
