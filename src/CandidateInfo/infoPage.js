@@ -7,24 +7,27 @@ var isMobile = (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
 
 class InfoPage extends React.Component {
 
+    scrollToTop() {
+      var top = document.getElementsByClassName('loading-progress').item(0);
+      top.scrollIntoView();
+    }
+
     componentDidMount() {
       if (!isMobile) {
         var element = document.getElementsByClassName('candidate-card-selected').item(0);
         element.scrollIntoView({behavior: "smooth", block: "start", inline: "center"});
       } else {
-        var top = document.getElementsByClassName('loading-progress').item(0);
-        top.scrollIntoView({behavior: "auto"});
+        this.scrollToTop();
       }
     }
 
     componentWillUnmount() {
-      var top = document.getElementsByClassName('loading-progress').item(0);
-      top.scrollIntoView();
+      this.scrollToTop();
     }
 
-    handleClick() {
-        // console.log(props.candidate.name.first);
-    }
+    // handleClick() {
+    //     // console.log(props.candidate.name.first);
+    // }
 
     render() {
       return (
