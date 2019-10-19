@@ -7,6 +7,8 @@ var isMobile = (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
 
 // var isNarrowScreen = (document.body.clientWidth < 750);
 
+var top = document.getElementsByClassName("header-container").item(0);
+
 class InfoPage extends React.Component {
 
     componentDidMount() {
@@ -14,8 +16,7 @@ class InfoPage extends React.Component {
         var element = document.getElementsByClassName('candidate-card-selected').item(0);
         element.scrollIntoView({behavior: "smooth", block: "start", inline: "center"});
       } else {
-        var element = document.getElementsByClassName('loading-progress').item(0);
-        element.scrollIntoView();
+        top.scrollIntoView();
       }
     }
 
@@ -25,7 +26,6 @@ class InfoPage extends React.Component {
     // }
 
     componentWillUnmount() {
-      var top = document.getElementsByClassName("header-container").item(0);
       top.scrollIntoView();
     }
 
