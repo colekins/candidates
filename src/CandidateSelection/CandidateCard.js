@@ -5,7 +5,7 @@ function CandidateCard(props) {
 
 const handleClick = (e) => {
     e.preventDefault();
-    var firstClick = (props.selected === null)
+    var firstClick = (props.selected == null)
     props.onClickCandidate(props.id, e, firstClick)
 }
 
