@@ -45,7 +45,7 @@ const userData = {
                 "military": "Slash the defense budget and bring troops home from post-9/11 wars."
             },
             "picture": {
-                "icon": "http://stopthecap.com/wp-content/uploads/2015/10/warren.jpg"}
+                "icon": "https://i.imgur.com/z8aYo5h.jpg"}
         },
         {
             "gender": "male",
