@@ -2,6 +2,39 @@
   text-align: center;
 }
 
+
+
+.bulb {
+  font-size: 1.4em;
+  transition: 0.15s transform ease;
+  cursor: pointer;
+  position: absolute;
+  right: 1em;
+  top: 1em;
+}
+
+.bulb:hover {
+  transform: scale(1.15);
+}
+
+.dark-bulb {
+  color: rgba(211, 211, 211, 0.938);
+}
+
+.light-bulb {
+  color:rgb(182, 182, 182);
+}
+
+@media only screen and (max-width: 520px) {
+  .bulb {
+      font-size: 1.1em;
+      top: 1.3em;
+      /* right: 50vw;
+      top: auto;
+      bottom: 1em; */
+  }
+}
+
 /* 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;

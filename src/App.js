@@ -14,12 +14,12 @@ class App extends React.Component  {
         };
     }
 
-    onSwitchTheme = () => {
-        let previouslyDark = this.state.darkTheme;
+    switchTheme = () => {
+        let currentlyDark = this.state.darkTheme;
 
-        if (previouslyDark) {
+        if (currentlyDark) {
             var sheet = document.createElement('style')
-            sheet.innerHTML = "body {background-color: #ededed; color: black;} .candidate-card {background: rgb(247, 247, 247)} .candidate-card:hover {background: linear-gradient(rgb(250, 250, 250) , rgb(230, 230, 230))} .candidate-card-selected {background: linear-gradient(to bottom, #a8d8ff, #3699f5)} .header-splash {color: #008fed} .issue-title {background: -webkit-linear-gradient(top, #47a6ff, #006ab0); -webkit-background-clip: text;} .header-name {background: -webkit-linear-gradient(top, #47a6ff, #006ab0); -webkit-background-clip: text;} .header-subtitle {color: black;} .App-link {color: #0068b3;} .candidate-status {background-color: #e3e3e3;} .active {background-color: #8aff99;}";
+            sheet.innerHTML = "body {background-color: #ededed; color: #1c1c1c;} .candidate-card {background: rgb(244, 244, 244)} .candidate-card:hover {background: linear-gradient(rgb(250, 250, 250) , rgb(239, 239, 239))} .candidate-card-selected {background: linear-gradient(to bottom, #a1d5ff, #5ab0fa)} .header-splash {color: #008fed} .issue-title {font-weight: 500; background: -webkit-linear-gradient(top, #57b3ff, #1ca4ff); -webkit-background-clip: text;} .header-name {font-weight: 400; background: -webkit-linear-gradient(top, #47a6ff, #006ab0); -webkit-background-clip: text;} .header-subtitle {color: #1c1c1c;} .App-link {color: #0068b3;} .candidate-status {background-color: #e3e3e3;} .active {background-color: #b8ffc1;}";
             document.body.appendChild(sheet);
         } else 
         {
@@ -29,14 +29,18 @@ class App extends React.Component  {
         }
 
         this.setState({
-            darkTheme: !previouslyDark
+            darkTheme: !currentlyDark
             });
         };
 
     render () {
         return (
             <div className="App">
-                <Header darkTheme = {this.state.darkTheme} onSwitchTheme = {this.onSwitchTheme} />
+                <span className={`${(this.state.darkTheme ? 'dark-bulb' : 'light-bulb')} bulb`} onClick={this.switchTheme}>
+                    <i className={`${(this.state.darkTheme ? 'far fa-lightbulb' : 'fas fa-lightbulb')}`}></i>
+                </span>
+
+                <Header/>
                 <CandidatesApp />
                 <Footer />
             </div>

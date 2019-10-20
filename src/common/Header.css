@@ -29,28 +29,3 @@
     font-size: 1.77em;
     font-weight: 300;
 }
-
-
-.bulb {
-    font-size: 1.3em;
-    cursor: pointer;
-    position: absolute;
-    right: 1em;
-    top: 1em;
-}
-
-.dark-bulb {
-    color: rgba(211, 211, 211, 0.938);
-}
-
-.light-bulb {
-    color: rgba(39, 39, 39, 0.897);
-}
-
-@media only screen and (max-width: 520px) {
-    .bulb {
-        font-size: 1.1em;
-        /* right: 50vw;
-        bottom: 1em; */
-    }
-}
