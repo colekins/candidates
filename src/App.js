@@ -3,6 +3,7 @@ import './App.css';
 import CandidatesApp from './CandidatesApp.js';
 import Header from './common/Header.js';
 import Footer from './common/Footer';
+import ThemeSwitcher from './common/themeSwitcher.js';
 
 
 class App extends React.Component  {    
@@ -36,10 +37,7 @@ class App extends React.Component  {
     render () {
         return (
             <div className="App">
-                <span className={`${(this.state.darkTheme ? 'dark-bulb' : 'light-bulb')} bulb`} onClick={this.switchTheme}>
-                    <i className={`${(this.state.darkTheme ? 'far fa-lightbulb' : 'fas fa-lightbulb')}`}></i>
-                </span>
-
+                <ThemeSwitcher onSwitchTheme={this.switchTheme} />
                 <Header/>
                 <CandidatesApp />
                 <Footer />
