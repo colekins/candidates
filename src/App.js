@@ -38,7 +38,7 @@ class App extends React.Component  {
     render () {
         return (
             <div className="App">
-                <ThemeSwitcher onSwitchTheme={this.switchTheme} />
+                <ThemeSwitcher darkTheme ={this.state.darkTheme} onSwitchTheme={this.switchTheme} />
                 <Header/>
                 <CandidatesApp />
                 <Footer />
