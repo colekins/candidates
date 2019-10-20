@@ -19,7 +19,7 @@ class App extends React.Component  {
 
         if (previouslyDark) {
             var sheet = document.createElement('style')
-            sheet.innerHTML = "body {background-color: white; color: black;} .candidate-card {background: rgb(238, 238, 238)} .candidate-card:hover {background: linear-gradient(rgb(249, 249, 249) , rgb(240, 240, 240))} .candidate-card-selected {background: linear-gradient(to bottom, rgb(109, 185, 255) , rgb(26, 124, 216))} .header-splash {color: #0076c4} .header-subtitle {color: black;}";
+            sheet.innerHTML = "body {background-color: #ededed; color: black;} .candidate-card {background: rgb(247, 247, 247)} .candidate-card:hover {background: linear-gradient(rgb(250, 250, 250) , rgb(230, 230, 230))} .candidate-card-selected {background: linear-gradient(to bottom, #a8d8ff, #3699f5)} .header-splash {color: #008fed} .issue-title {background: -webkit-linear-gradient(top, #47a6ff, #006ab0); -webkit-background-clip: text;} .header-name {background: -webkit-linear-gradient(top, #47a6ff, #006ab0); -webkit-background-clip: text;} .header-subtitle {color: black;} .App-link {color: #0068b3;} .candidate-status {background-color: #e3e3e3;} .active {background-color: #8aff99;}";
             document.body.appendChild(sheet);
         } else 
         {

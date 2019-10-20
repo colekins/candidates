@@ -40,9 +40,17 @@
 }
 
 .dark-bulb {
-    color: lightgray;
+    color: rgba(211, 211, 211, 0.938);
 }
 
 .light-bulb {
-    color: black;
+    color: rgba(39, 39, 39, 0.897);
+}
+
+@media only screen and (max-width: 520px) {
+    .bulb {
+        font-size: 1.1em;
+        /* right: 50vw;
+        bottom: 1em; */
+    }
 }
