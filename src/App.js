@@ -20,7 +20,7 @@ class App extends React.Component  {
 
         if (currentlyDark) {
             var sheet = document.createElement('style')
-            sheet.innerHTML = "body {background-color: #ededed; color: #1c1c1c;} .candidate-card {background: rgb(244, 244, 244)} .candidate-card:hover {background: linear-gradient(rgb(250, 250, 250) , rgb(239, 239, 239))} .candidate-card-selected {background: linear-gradient(to bottom, #a1d5ff, #5ab0fa)} .header-splash {color: #008fed} .issue-title {font-weight: 500; background: -webkit-linear-gradient(top, #57b3ff, #1ca4ff); -webkit-background-clip: text;} .header-name {font-weight: 400; background: -webkit-linear-gradient(top, #47a6ff, #006ab0); -webkit-background-clip: text;} .header-subtitle {color: #1c1c1c;} .App-link {color: #0068b3;} .candidate-status {background-color: #e3e3e3;} .active {background-color: #b8ffc1;}";
+            sheet.innerHTML = "html {background-color: #e3e3e3;} body {background: linear-gradient(#fcfcfc, #e3e3e3); color: #1c1c1c;} .candidate-card {background: rgb(244, 244, 244)} .candidate-card:hover {background: linear-gradient(rgb(250, 250, 250) , rgb(239, 239, 239))} .candidate-card-selected {background: linear-gradient(to bottom, #a1d5ff, #5ab0fa)} .header-splash {color: #008fed} .issue-title {font-weight: 500; background: -webkit-linear-gradient(top, #57b3ff, #1ca4ff); -webkit-background-clip: text;} .header-name {font-weight: 400; background: -webkit-linear-gradient(top, #47a6ff, #006ab0); -webkit-background-clip: text;} .header-subtitle {color: #1c1c1c;} .App-link {color: #0068b3;} .candidate-status {background-color: #e3e3e3;} .active {background-color: #b8ffc1;}";
             document.body.appendChild(sheet);
         } else 
         {
