@@ -24,7 +24,7 @@ class App extends React.Component  {
             document.body.appendChild(sheet);
         } else 
         {
-            var lightStyle = document.getElementsByTagName('style')[8];
+            var lightStyle = document.getElementsByTagName("style")[document.getElementsByTagName("style").length - 1];
             var parentNode = lightStyle.parentNode;
             parentNode.removeChild(lightStyle);
         }
