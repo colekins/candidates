@@ -33,7 +33,7 @@ class CandidatesApp extends React.Component  {
         
         if (!firstClick) {
             var element = e.target;
-            element.scrollIntoView({behavior: "smooth", block: "center", inline: "center"});
+            element.scrollIntoView({behavior: "smooth", block: "nearest", inline: "center"});
         }
     }
 
